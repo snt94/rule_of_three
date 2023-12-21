@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+   background-color: darkslategrey;
+   font-family:'Ubuntu';
+   color: aliceblue;
+   font-size: 20px;
+}
+
+
+.calculator {
+   margin: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);   
+   width: 50%;
+   border: 3px solid aliceblue;
+   padding: 10px;
+   text-align: center;
+}
+
+.calculator input {
+   width: 25%;
+   background-color: aliceblue;
+   color: black;
+   border: solid 3px aliceblue;
+   text-align: center;
+}
+
+.calc {
+   text-decoration: none;
+   border: solid darkslategrey;
+   border-radius: 10px;
+   background-color: whitesmoke;
+   transition-duration: 0.4s;
+   color: darkslategrey;
+   cursor: pointer;
+ }
+ 
+ .calc:hover {
+   background-color: #3a7761; /* Green */
+   color: white;
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
